@@ -1,64 +1,30 @@
-Contribution: 2023-02-24 15:00
+# Bluemoon NFT Evolution
 
-Contribution: 2023-02-24 15:01
+This contract is for evolution of Bluemoon NFTs. The blank pendant is filled with user's custom NFT by updating metadata of the NFT.
 
-Contribution: 2023-02-24 15:02
+Try running some of the following tasks:
 
-Contribution: 2023-02-25 15:00
+To install all dependancies, run the following command
+```shell
+yarn install
+```
 
-Contribution: 2023-02-26 15:00
+To compile the contract, try this
+```
+yarn hardhat compile
+```
 
-Contribution: 2023-02-26 15:01
+For deploying the contract to Goerli testnet
+```
+yarn hardhat run ./scripts/deploy_bluemoon.ts --network goerli
+```
+or to Ethereum mainnet
+```
+yarn hardhat run ./scripts/deploy_bluemoon.ts --network mainnet
+```
 
-Contribution: 2023-02-26 15:02
-
-Contribution: 2023-02-26 15:03
-
-Contribution: 2023-02-26 15:04
-
-Contribution: 2023-02-27 15:00
-
-Contribution: 2023-02-27 15:01
-
-Contribution: 2023-03-02 15:00
-
-Contribution: 2023-03-02 15:01
-
-Contribution: 2023-03-06 15:00
-
-Contribution: 2023-03-06 15:01
-
-Contribution: 2023-03-08 15:00
-
-Contribution: 2023-03-08 15:01
-
-Contribution: 2023-03-08 15:02
-
-Contribution: 2023-03-08 15:03
-
-Contribution: 2023-03-09 15:00
-
-Contribution: 2023-03-09 15:01
-
-Contribution: 2023-03-09 15:02
-
-Contribution: 2023-03-09 15:03
-
-Contribution: 2023-03-10 15:00
-
-Contribution: 2023-03-10 15:01
-
-Contribution: 2023-03-11 15:00
-
-Contribution: 2023-03-11 15:01
-
-Contribution: 2023-03-11 15:02
-
-Contribution: 2023-03-12 15:00
-
-Contribution: 2023-03-13 15:00
-
-Contribution: 2023-03-13 15:01
-
-Contribution: 2023-03-14 15:00
+For verifying the contract
+```
+yarn hardhat verify <deployed contract address> Bluemoon_NFT BMT --network goerli
+```
 
